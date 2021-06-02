@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(252, 252, 124);
+}
+h1{
+    color:darksalmon;
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: palegoldenrod;
+}
+.intro{
+    
+    color: yellow;
+    font-family: Verdana;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 50px;
+    height: 300px;
+    width: 100%;
+    background-image: url(intro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: dotted;
+    border-color: darkred;
+    border-width: thick;
+    padding: 0%;
+}
+table,th,td{
+    border: solid;
+}
+.a{
+    color: coral;
+    border: solid;
+}
+
+
+h2{
+    text-align: center;
+    color: rgb(184, 73, 36);
+    font-family: verdana;
+}
+.s{
+    font-family: courier;
+    background-color: darksalmon;
+}
