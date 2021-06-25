@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to sort the array in ascending order.</p>
+
+<button onclick="myFunction()">Click Here</button>
+
+
+
+<script>
+    var points = [4,3,5,1,10,2,22,12];
+    document.write(points)
+    
+    
+    function myFunction() {
+      points.sort(function(a, b){return a-b});
+      document.write(points);
+    }
+ </script>
+<p>Click the button to sort the array in descending order.</p>
+
+<button onclick="myFunctionb()">Click Here</button>
+
+
+
+<script>
+var points = [4,3,5,1,10,2,22,12];
+document.write(points)
+
+function myFunctionb() {
+  points.sort(function(a, b){return b-a});
+  document.write(points);
+}
+</script>
+<p>Click the button to sort the array in alphabetical order.</p>
+
+<button onclick="myFunctionc()">Click Here</button>
+
+
+
+<script>
+var points = [4,3,5,1,10,2,22,12];
+document.write(points)
+
+function myFunctionc()  {
+    points.sort();
+   
+  document.write(points)
+}
+</script>
+
+
+</body>
+</html>
