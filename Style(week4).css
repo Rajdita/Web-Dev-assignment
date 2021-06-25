@@ -1,0 +1,66 @@
+ul{
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+    list-style: none;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+}
+li{
+    float: left;
+    border-right: solid;
+    text-decoration: none;
+}
+.intro
+{
+    background-image: url(flowerintro.jpg);
+    padding: 20px;
+    font-size: 50px;
+    outline: 10px solid black;
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(247, 9, 227);
+}
+a:hover
+{
+    background-color: rgb(241, 229, 177);
+}
+.Bday
+{
+    background-image: url(bday.jpg);
+    float: left;
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    outline: 5px solid black;
+    background-size: 100% 100%;
+    background-position: left;
+    font-size: 20px;
+    width: 50%;
+    height: 350px;
+    text-align: justify;
+}
+.anni
+{
+    background-image: url(anni.jpg);
+    outline: 5px solid black;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 20px;
+    width: 50%;
+    height: 350px;
+}
+.fune
+{
+    background-image: url(Funeral.jpg);
+    outline: 5px solid black;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 20px;
+    width: 50%;
+    height: 350px;
+}
